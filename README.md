@@ -1,5 +1,7 @@
 # mydebian
 
+## move docker away from root partition to home partition
+
 As the prerequisite, a new directory for docker should be prepared on a second partition (or a separate drive):
 1. Make sure that a separate partition is mounted. In this example, a partition called “/dev/mapper/sisense_vg-sisense” mounted at “/second_drive”: 
 
