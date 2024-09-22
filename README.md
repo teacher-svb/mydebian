@@ -108,3 +108,7 @@ https://docs.docker.com/desktop/install/linux/debian/
 	&& sudo apt update \
 	&& sudo apt install gh -y
 ```
+
+```bash
+gh auth login
+```
