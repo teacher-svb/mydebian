@@ -38,6 +38,16 @@ https://github.com/teacher-svb/mydebian/raw/refs/heads/main/shortcuts/shortcuts.
 
 settings > shortcuts > shortcuts > import schema
 
+## NerdFont installation
+
+```bash
+wget -P ~/.local/share/fonts https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/JetBrainsMono.zip \
+&& cd ~/.local/share/fonts \
+&& unzip JetBrainsMono.zip \
+&& rm JetBrainsMono.zip \
+&& fc-cache -fv
+```
+
 ## myBash (via mybash repo)
 
 ```bash
@@ -53,7 +63,7 @@ cd ~/build/mybash
 
 ## docker installation
 
-```
+```bash
 # Add Docker's official GPG key:
 sudo apt-get update
 sudo apt-get install ca-certificates curl
@@ -69,7 +79,7 @@ echo \
 sudo apt-get update
 ```
 
-```
+```bash
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
