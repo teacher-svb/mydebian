@@ -48,6 +48,14 @@ wget -P ~/.local/share/fonts https://github.com/ryanoasis/nerd-fonts/releases/do
 && fc-cache -fv
 ```
 
+## FastFetch
+
+https://github.com/fastfetch-cli/fastfetch/releases
+
+fastfetch --gen-config
+
+overwrite fastfetch config with the one from https://github.com/teacher-svb/mybash/raw/refs/heads/main/fastfetch/config.jsonc
+
 ## myBash (via mybash repo)
 
 ```bash
