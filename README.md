@@ -30,7 +30,9 @@ cd ~/Downloads && wget https://github.com/teacher-svb/mydebian/raw/refs/heads/ma
 
 ### dolphin changes
 
+### Task Switcher (alt-tab behaviour)
 
+settings > window management > task switcher > get new task switchers... > thumbnail switcher
 
 ### shortcuts
 
