@@ -28,6 +28,10 @@ wget https://github.com/teacher-svb/mydebian/raw/refs/heads/main/wallpapers/no-m
 cd ~/Downloads && wget https://github.com/teacher-svb/mydebian/raw/refs/heads/main/launcher/OnzeMenu.tar.gz -P ~/Downloads/ && plasmapkg2 -i ./OnzeMenu.tar.gz
 ```
 
+### cursors
+
+we10xos
+
 ### dolphin changes
 
 ### Task Switcher (alt-tab behaviour)
