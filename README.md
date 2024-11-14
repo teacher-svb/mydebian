@@ -135,6 +135,14 @@ deb http://deb.debian.org/debian bookworm-updates main contrib non-free non-free
 deb-src http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware
 ```
 
+## upgrade kernel
+
+enable backports first
+
+```
+sudo apt install -t bookworm-backports linux-image-amd64
+sudo apt install -t bookworm-backports firmware-linux
+```
 
 ## fixing bluetooth
 
