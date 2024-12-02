@@ -122,6 +122,10 @@ gh auth login
 ## backports
 
 ```
+sudo nano /etc/apt/sources.list
+```
+
+```
 deb http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware
 deb-src http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware
 
